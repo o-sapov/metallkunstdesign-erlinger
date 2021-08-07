@@ -1,0 +1,65 @@
+/* GLOBAL START */
+/* body {
+  font-family: "Times New Roman", serif;
+  text-align: left;
+  background-color: $backgroundLight;
+
+  @mixin atLarge {
+    font-size: 1.1em;
+  }
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+div {
+  display: block;
+}
+
+.indent {
+  margin-left: 15px;
+}
+
+.bottom-margin-1rem>li {
+  margin-bottom: 1rem;
+}
+
+.larger-line-height {
+  line-height: 1.6;
+}
+
+.sections {
+  height: 2px;
+  border-width: 0;
+  color: gray;
+  background-color: gray
+}
+
+a:link {
+  color: $mozarteumGreen;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: 898b8a;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: $mozarteumGreen;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: $mozarteumGreen;
+  background-color: transparent;
+  text-decoration: underline;
+} */
+
+/* GLOBAL END */
