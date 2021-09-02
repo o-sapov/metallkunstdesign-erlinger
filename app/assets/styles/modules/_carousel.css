@@ -1,7 +1,5 @@
 /* CAROUSEL */
-/* .carousel-control_background {
-  background-color: red;
-} */
+
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
   width: 10rem;
@@ -14,11 +12,6 @@
   height: 0.8rem;
 }
 
-.wrap_img {
-  margin-left: auto;
-  margin-right: auto;
-  width: 90%;
-}
 
 /* @mixin atSmall {
   .wrap_img {

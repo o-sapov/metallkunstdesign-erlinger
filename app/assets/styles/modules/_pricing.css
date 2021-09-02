@@ -1,0 +1,18 @@
+/*PRICING*/
+
+
+.card{
+    margin: 5em auto 0 auto;
+    text-align: center;
+
+}
+
+/*.card-img-top {*/
+/*width: 60%;*/
+/*}*/
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+/*PRICING END*/

@@ -1,3 +1,13 @@
 /* WRAPPER */
 
+
+
+.wrapper {
+    padding-left: 18px;
+    padding-right: 18px;
+    max-width: 1236px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 /* END WRAPPER */
