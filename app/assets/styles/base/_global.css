@@ -7,6 +7,16 @@
   @mixin atLarge {
     font-size: 1.1em;
   }
+} */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 * {
@@ -15,30 +25,53 @@
   box-sizing: border-box;
 }
 
-div {
-  display: block;
+img {
+  max-width: 100%;
+  height: auto;
 }
 
-.indent {
+/*div {*/
+/*  display: block;*/
+/*}*/
+
+
+h1 {
+  /* font-family: "Montserrat", sans-serif; */
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2 {
+  /* font-family: "Montserrat-Bold", sans-serif; */
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: sans-serif;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* .indent {
   margin-left: 15px;
-}
-
-.bottom-margin-1rem>li {
+} */
+/* .bottom-margin-1rem>li {
   margin-bottom: 1rem;
 }
 
 .larger-line-height {
   line-height: 1.6;
-}
-
-.sections {
+} */
+/* .sections {
   height: 2px;
   border-width: 0;
   color: gray;
   background-color: gray
-}
-
-a:link {
+} */
+/* a:link {
   color: $mozarteumGreen;
   background-color: transparent;
   text-decoration: none;
@@ -61,5 +94,4 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 } */
-
 /* GLOBAL END */

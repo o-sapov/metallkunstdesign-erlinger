@@ -1,0 +1,22 @@
+.title {
+
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+    background-color: $backgroundTitle;
+    color: #fff;
+
+&--header {
+
+     /*background-color: orange;*/
+    /*background-color: $backgroundTitle;*/
+    color: #fff;
+}
+
+
+/* @mixin atMedium {
+    padding-top: 60px;
+  }
+}*/
+}

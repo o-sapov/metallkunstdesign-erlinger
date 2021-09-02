@@ -1,0 +1,21 @@
+/* FEATURES */
+#features {
+  padding: 7% 15%;
+}
+
+.features {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature-icons {
+  /* color: #ef8172; */
+  color: #6B9282;
+  margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+  color: #7FBF3F;
+}
+
+/* FEATURES END */
