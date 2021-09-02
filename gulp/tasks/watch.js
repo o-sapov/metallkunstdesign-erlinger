@@ -16,6 +16,7 @@ gulp.task('watch', function() {
 
   watch('./app/index.html').on("change", reload);
   watch('./app/assets/styles/**/*.css', gulp.series('manageCSS'));
+  watch('./app/assets/scripts/**/*.js', gulp.series('scriptsRefresh'));
 
 });
 
@@ -27,5 +28,9 @@ gulp.task('cssInject', function() {
     })
     .pipe(browserSync.stream());
 });
+gulp.task('reloadBrowser', function() {
+  browserSync.reload();
+});
 
 gulp.task('manageCSS', gulp.series('styles', 'cssInject'));
+gulp.task('scriptsRefresh', gulp.series('scripts', 'reloadBrowser'));
