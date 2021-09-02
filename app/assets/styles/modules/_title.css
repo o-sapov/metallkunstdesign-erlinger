@@ -1,17 +1,22 @@
 .title {
-  /* &__image {
-    display:block;
-  } */
-  /* &__header {
-    padding-top: 88px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%); /*align vertically*/
-  left: 0;
-  width: 100%;
-  text-align: center;
-  /* @mixin atMedium {
-      padding-top: 60px;
-    }
+
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+    background-color: $backgroundTitle;
+    color: #fff;
+
+&--header {
+
+     /*background-color: orange;*/
+    /*background-color: $backgroundTitle;*/
+    color: #fff;
+}
+
+
+/* @mixin atMedium {
+    padding-top: 60px;
+  }
 }*/
 }
