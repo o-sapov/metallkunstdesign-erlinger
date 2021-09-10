@@ -1,4 +1,27 @@
-header {
-  background-color: #6B9282;
-  color: #fff;
+/* HEADER */
+
+.header {
+
+  left: 0;
+  width: 100%;
+  text-align: center;
+
+  background-color: $orange;
+  color: $navy;
+  font-size: 2rem;
+
+&--title {
+
+   /*background-color: orange;*/
+   /*background-color: $backgroundTitle;*/
+
+   /*color: $green;*/
+ }
+
+/* @mixin atMedium {
+    padding-top: 60px;
+  }
+}*/
 }
+
+/* TITLE END */
