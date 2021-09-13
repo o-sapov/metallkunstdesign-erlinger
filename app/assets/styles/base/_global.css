@@ -36,7 +36,6 @@ img {
 
 
 h1 {
-  /* font-family: "Montserrat", sans-serif; */
   font-size: 3rem;
   line-height: 1.5;
 }
@@ -51,9 +50,9 @@ h3 {
   font-family: sans-serif;
 }
 
-.container-fluid {
-  padding: 3% 15%;
-}
+/*.container-fluid {*/
+/*  padding: 3% 15%;*/
+/*}*/
 
 /* .indent {
   margin-left: 15px;

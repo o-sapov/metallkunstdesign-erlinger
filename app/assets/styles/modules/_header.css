@@ -1,21 +1,51 @@
 /* HEADER */
 
 .header {
-
-    left: 0;
     width: 100%;
     text-align: center;
+    background-color: $purple;;
+    padding: 2% 3%;
 
-    background-color: $purple;
-    color: $orange2;
-    font-size: 5rem;
+}
 
-& h1 {
-    font-size: 5rem;
+.navbar-toggler {
+    font-size: 2.5rem;
+}
+
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+
+.title {
+
     font-family: 'Merienda One', cursive;
+    
+    /*background-color: $purple;*/
+    background-color: #F3F1F5;
+    color: $orange2;
+    font-size: 8rem;
+    padding: 5%;
+    text-align: center;
 
+    & h1 {
+          font-size: 5rem;
+      }
 }
 
+.navbar-toggler {
+    background-color: #F3F1F5;
 }
 
-/* TITLE END */
+#navbarSupportedContent a {
+ color: #F3F1F5;
+    font-size: 2.5rem;
+}
+
+/* HEADER END */

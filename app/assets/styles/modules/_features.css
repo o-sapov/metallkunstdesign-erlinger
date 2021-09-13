@@ -1,11 +1,13 @@
 /* FEATURES */
 #features {
-  padding: 7% 15%;
+  /*padding: 7% 15%;*/
+  background-color: $sunset;
 }
 
-.features {
+.feature-item {
   text-align: center;
   padding: 5%;
+
 }
 
 .feature-icons {
