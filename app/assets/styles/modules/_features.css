@@ -2,16 +2,23 @@
 #features {
   /*padding: 7% 15%;*/
   /*background-color: $sunset;*/
-  background-color: $ivory;
+  /*background-color: #152D35;*/
+  background-color: $mainBackground;
   font-size: 3rem;
-  padding-bottom: 10rem;
-
+  padding: 5rem 0 10rem 0;
+  color: $mainText;;
 }
 
 .feature-item {
   text-align: center;
-  padding: 5%;
-
+  padding: 10%;
+   & h2 {
+  font-size: 5rem;
+  margin: 5rem;
+     }
+  & p {
+  font-size: 4rem;
+    }
 }
 
 .feature-icons {
@@ -22,16 +29,6 @@
 
 .feature-icons:hover {
   color: #7FBF3F;
-}
-
-.feature-image {
-  background-image: url("/w3images/photographer.jpg");
-  background-color: #cccccc;
-  height: 500px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
 }
 
 

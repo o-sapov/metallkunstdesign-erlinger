@@ -2,9 +2,10 @@
 
 .header {
     width: 100%;
+
     text-align: center;
     /*background-color: $ivory;*/
-    background-color: $purple;
+    background-color: $mainBackground;
     padding: 2% 3%;
 }
 
@@ -25,7 +26,8 @@
 
 .title {
     background-image: url("../../assets/images/logo.jpg");
-    height: 75rem;
+    height: 90rem;
+    /*height: 100%;*/
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -34,20 +36,22 @@
     font-family: 'Merienda One', cursive;
     background-color: $ivory;
 
-    color: $orange2;
-    color: #EFEFEF;
+    /*color: $orange2;*/
+    color: #FDFCE5;
     font-size: 9rem;
     /*padding: 5%;*/
     text-align: center;
 
     & h1 {
           font-size: 6rem;
-          text-shadow: 4px 4px 0 rgba(0,0,0, .1);
+          /*text-shadow: 4px 4px 0 rgba(0,0,0, .1);*/
+          /*font-family: 'Arial', sans-serif;*/
       }
 
      & h2 {
            font-size: 4rem;
            font-family: 'Arial', sans-serif;
+    /*transform: translateY(40rem);*/
 
        }
 }
@@ -57,7 +61,7 @@
 /*}*/
 
 #navbarSupportedContent a {
-    color: #F3F1F5;
+    color: $mainText;
     font-size: 3rem;
 }
 
