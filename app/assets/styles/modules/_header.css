@@ -24,25 +24,27 @@
 
 
 .title {
-
+    /*background-image: url("../../assets/images/01.jpg");*/
+    padding: 10rem 0 15rem 0;
     font-family: 'Merienda One', cursive;
 
     /*background-color: $purple;*/
-    background-color: #F3F1F5;
+    background-color: $ivory;
 
     color: $orange2;
     font-size: 9rem;
-    padding: 5%;
+    /*padding: 5%;*/
     text-align: center;
 
     & h1 {
           font-size: 6rem;
-          /*line-height: 15rem;*/
+          text-shadow: 4px 4px 0 rgba(0,0,0, .1);
       }
+
      & h2 {
            font-size: 4rem;
-           /*line-height: 15rem;*/
-    font-family: 'Arial', sans-serif;
+           font-family: 'Arial', sans-serif;
+
        }
 }
 
