@@ -47,7 +47,7 @@
     text-align: center;
 
     & h1 {
-
+        transform: translateY(-11rem);
           font-size: 6rem;
 
           /*text-shadow: 4px 4px 0 rgba(0,0,0, .1);*/
@@ -58,7 +58,7 @@
            font-size: 4rem;
            font-family: 'Arial', sans-serif;
     /*transform: translateY(40rem);*/
-
+           transform: translateY(-11rem);
        }
 }
 
