@@ -4,12 +4,12 @@
     width: 100%;
     text-align: center;
     background-color: $purple;;
-    padding: 2% 3%;
+    padding: 1% 3%;
 
 }
 
 .navbar-toggler {
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 
 
@@ -26,17 +26,24 @@
 .title {
 
     font-family: 'Merienda One', cursive;
-    
+
     /*background-color: $purple;*/
     background-color: #F3F1F5;
+
     color: $orange2;
-    font-size: 8rem;
+    font-size: 9rem;
     padding: 5%;
     text-align: center;
 
     & h1 {
-          font-size: 5rem;
+          font-size: 6rem;
+          /*line-height: 15rem;*/
       }
+     & h2 {
+           font-size: 4rem;
+           /*line-height: 15rem;*/
+    font-family: 'Arial', sans-serif;
+       }
 }
 
 .navbar-toggler {
@@ -44,8 +51,23 @@
 }
 
 #navbarSupportedContent a {
- color: #F3F1F5;
-    font-size: 2.5rem;
+    color: #F3F1F5;
+    font-size: 3rem;
+}
+
+
+#logo {
+    border-radius: 90px;
+    transform: translateX(20%);
+    /*transform: translateY(40%);*/
+
+    /*overflow: hidden;*/
+    width: 180px;
+    height: 180px;
+    /*margin: 0 auto -80px auto;*/
+    /*position: relative;*/
+    /*top: -80px;*/
+    border: 3px solid rgba(255, 255, 255, .8);
 }
 
 /* HEADER END */
