@@ -11,6 +11,9 @@
   width: 6rem;
   height: 0.8rem;
 }
+carousel-item {
+  height: 50%;
+}
 
 
 /* @mixin atSmall {

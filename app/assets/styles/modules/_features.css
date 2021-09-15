@@ -5,13 +5,13 @@
   /*background-color: #152D35;*/
   background-color: $mainBackground;
   font-size: 3rem;
-  padding: 5rem 0 10rem 0;
+  padding: 5rem 0 8rem 0;
   color: $mainText;;
 }
 
 .feature-item {
   text-align: center;
-  padding: 10%;
+  padding: 0 5rem 5rem 5rem;
    & h2 {
   font-size: 5rem;
   margin: 5rem;
