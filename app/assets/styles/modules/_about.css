@@ -2,9 +2,8 @@
 /*ABOUT*/
 
 .about {
-
-&
-h2 {
+background-color: $mainBackground;
+&  h2 {
     margin-top: 0.5em;
 }
 

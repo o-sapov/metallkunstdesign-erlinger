@@ -2,17 +2,19 @@
 
 .carousel-control-next-icon,
 .carousel-control-prev-icon {
-  width: 10rem;
-  height: 10rem;
+    width: 10rem;
+    height: 10rem;
 }
 
 .carousel-indicators [data-bs-target] {
-  /* display: block; */
-  width: 6rem;
-  height: 0.8rem;
+    /* display: block; */
+    width: 6rem;
+    height: 0.8rem;
 }
-carousel-item {
-  height: 50%;
+
+.carousel-item img {
+    width: 50%;
+    border: 15px solid $mainBackground;
 }
 
 
@@ -31,28 +33,28 @@ carousel-item {
   }
 } */
 @mixin atLarge {
-  .wrap_img {
-    margin-left: auto;
-    margin-right: auto;
-    /* padding: 0.7rem; */
-    /* max-width: 1280px; */
-    width: 60%;
-  }
+    .wrap_img {
+        margin-left: auto;
+        margin-right: auto;
+        /* padding: 0.7rem; */
+        /* max-width: 1280px; */
+        width: 60%;
+    }
 
-  .carousel-indicators button {
-    /* display: block; */
-    width: 80px;
-  }
+    .carousel-indicators button {
+        /* display: block; */
+        width: 80px;
+    }
 }
 
 @mixin atLargest {
-  .wrap_img {
-    margin-left: auto;
-    margin-right: auto;
-    /* padding: 0.7rem; */
-    /* max-width: 1280px; */
-    width: 50%;
-  }
+    .wrap_img {
+        margin-left: auto;
+        margin-right: auto;
+        /* padding: 0.7rem; */
+        /* max-width: 1280px; */
+        width: 50%;
+    }
 }
 
 /* END CAROUSEL */
