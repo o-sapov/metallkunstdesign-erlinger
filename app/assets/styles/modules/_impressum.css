@@ -1,0 +1,12 @@
+/*IMPRESSUM*/
+.impressum {
+display: none;
+    h1 {
+        font-size: 4rem;
+    }
+    p {
+        margin: 3rem 0;
+    }
+}
+
+/*IMPRESSUM END*/

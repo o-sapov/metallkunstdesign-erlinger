@@ -4,7 +4,7 @@ body {
   font-family: 'Arial', sans-serif;
   color: $mainText;
   background-color: $mainBackground;
-
+  font-size: 3rem;
 
 /*@mixin atLarge {*/
 /*  font-size: 1.1em;*/

@@ -14,7 +14,7 @@ gulp.task('watch', function() {
     }
   });
 
-  watch('./app/index.html').on("change", reload);
+  watch('./app/**/*.html').on("change", reload);
   watch('./app/assets/styles/**/*.css', gulp.series('manageCSS'));
   watch('./app/assets/scripts/**/*.js', gulp.series('scriptsRefresh'));
 

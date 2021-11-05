@@ -1,10 +1,10 @@
 /*FOOTER*/
 
 footer {
-    font-size: 3rem;
 
     & h3 {
           font-size: 4rem;
+          font-weight: bold;
       }
 
       p {
