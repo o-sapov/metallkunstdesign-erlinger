@@ -1,17 +1,14 @@
 /* GLOBAL START */
-/* body {
-  font-family: "Times New Roman", serif;
-  text-align: left;
-  background-color: $backgroundLight;
-
-  @mixin atLarge {
-    font-size: 1.1em;
-  }
-} */
 
 body {
   font-family: 'Arial', sans-serif;
-  color: #333;
+  color: $mainText;
+  background-color: $mainBackground;
+
+
+/*@mixin atLarge {*/
+/*  font-size: 1.1em;*/
+/*}*/
 }
 
 img {
@@ -60,12 +57,7 @@ h3 {
 .larger-line-height {
   line-height: 1.6;
 } */
-/* .sections {
-  height: 2px;
-  border-width: 0;
-  color: gray;
-  background-color: gray
-} */
+
 /* a:link {
   color: $mozarteumGreen;
   background-color: transparent;

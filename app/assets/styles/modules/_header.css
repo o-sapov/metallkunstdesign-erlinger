@@ -2,12 +2,8 @@
 
 .header {
     width: 100%;
-
     text-align: center;
-    /*background-color: $ivory;*/
-    background-color: $mainBackground;
     padding: 2% 3%;
-
 }
 
 .navbar-toggler {
@@ -27,8 +23,6 @@
 
 
 .title {
-
-
     background-image: url("../../assets/images/logo-small.jpg");
     /*filter: blur(8px);*/
     /*-webkit-filter: blur(8px);*/
@@ -40,12 +34,8 @@
     position: relative;
     padding: 20rem 0 20rem 0;
     font-family: 'Merienda One', cursive;
-    background-color: $ivory;
-
-    /*color: $orange2;*/
     color: #FDFCE5;
     font-size: 9rem;
-    /*padding: 5%;*/
     text-align: center;
 
     & h1 {
@@ -63,10 +53,6 @@
            transform: translateY(-11rem);
        }
 }
-
-/*.navbar-toggler {*/
-/*    background-color: #F3F1F5;*/
-/*}*/
 
 #navbarSupportedContent a {
     color: $mainText;

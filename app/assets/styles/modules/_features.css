@@ -1,12 +1,7 @@
 /* FEATURES */
 #features {
-  /*padding: 7% 15%;*/
-  /*background-color: $sunset;*/
-  /*background-color: #152D35;*/
-  background-color: $mainBackground;
   font-size: 3rem;
   padding: 5rem 0 8rem 0;
-  color: $mainText;;
 }
 
 .feature-item {
