@@ -1,0 +1,23 @@
+/*FOOTER*/
+
+footer {
+    font-size: 3rem;
+
+    & h3 {
+          font-size: 4rem;
+      }
+
+      p {
+          padding: 2rem 0 2rem 0;
+      }
+
+      & .row {
+            font-size: 2rem;
+        }
+      .copyright {
+          text-align: right;
+      }
+
+}
+
+/*FOOTER END*/
