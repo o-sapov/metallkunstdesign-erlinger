@@ -18,6 +18,9 @@ footer {
           text-align: right;
       }
 
+      & .home {
+          display: none;
+      }
 }
 
 /*FOOTER END*/
