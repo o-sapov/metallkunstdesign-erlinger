@@ -1,2 +1,2 @@
 require('./modules/carousel.js');
-require('./modules/impressum.js');
+// require('./modules/impressum.js');

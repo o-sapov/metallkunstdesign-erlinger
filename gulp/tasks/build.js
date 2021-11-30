@@ -65,25 +65,25 @@ gulp.task('usemin_index', function() {
     .pipe(gulp.dest("./docs"))
 })
 
-// gulp.task('usemin_index_en', function() {
-//   return gulp.src("./app/html/index_en.html")
-//     .pipe(usemin({
-//       css: [function() {
-//         return rev()
-//       }, function() {
-//         return cssnano()
-//       }],
-//       js: [function() {
-//         return rev()
-//       }, function() {
-//         return uglify()
-//       }]
-//     }))
-//     .pipe(gulp.dest("./docs/html"))
-// })
+gulp.task('usemin_impressum', function() {
+  return gulp.src("./app/html/impressum.html")
+    .pipe(usemin({
+      css: [function() {
+        return rev()
+      }, function() {
+        return cssnano()
+      }],
+      js: [function() {
+        return rev()
+      }, function() {
+        return uglify()
+      }]
+    }))
+    .pipe(gulp.dest("./docs/html"))
+})
 
 
 
 // gulp.task('usemin', gulp.series('usemin_index', 'usemin_index_en'));
 gulp.task('usemin', gulp.series('usemin_index'));
-gulp.task('build', gulp.series('deleteDistFolder', 'copyGeneralFiles', 'styles', 'optimizeImages', 'usemin'));
+gulp.task('build', gulp.series('deleteDistFolder', 'copyGeneralFiles', 'styles', 'optimizeImages', 'usemin', 'usemin_impressum'));
