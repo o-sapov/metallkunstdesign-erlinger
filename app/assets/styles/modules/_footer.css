@@ -1,0 +1,26 @@
+/*FOOTER*/
+
+footer {
+
+    & h3 {
+          font-size: 4rem;
+          font-weight: bold;
+      }
+
+      p {
+          padding: 2rem 0 2rem 0;
+      }
+
+      & .row {
+            font-size: 2rem;
+        }
+      .copyright {
+          text-align: right;
+      }
+
+      & .home {
+          display: none;
+      }
+}
+
+/*FOOTER END*/

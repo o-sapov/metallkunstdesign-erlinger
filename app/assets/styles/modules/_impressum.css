@@ -1,0 +1,23 @@
+/*IMPRESSUM*/
+#impressum {
+
+  & h1 {
+       font-size: 4rem;
+   }
+ &  p {
+       margin: 3rem 0;
+   }
+} 
+
+/* .impressum {
+    display: none;
+} */
+
+/* .impressum-link{
+    text-decoration: underline;
+} */
+
+/* .home{
+    display: none;
+} */
+/*IMPRESSUM END*/

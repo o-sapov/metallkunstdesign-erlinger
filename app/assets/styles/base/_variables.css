@@ -1,7 +1,26 @@
 /* VARIABLES */
-$backgroundTitle: #6B9282;
-$backgroundLight: #f4f4f4;
+
+/*color palette https://colorhunt.co/palette/111d5ec70039f37121c0e218*/
+$navy: #111D5E;
+$maroon: #C70039;
+$orange: #F37121;
+$green: #C0E218;
+
+/*https://colorhunt.co/palette/52006acd113bff7600ffa900*/
+$purple: #52006A;
+$red: #CD113B;
+$sunset: #FFA900;
+
+$ivory: #F3F1F5;
+
+$light_orange: #FDFCE5;
+
+
+
 $backgroundBody: #ededed;
-$mozarteumGreen: #6b9282;
+
+$mainBackground: #F0E3CA;
+$mainText: #414246;
 $grey: 898b8a;
+
 /* END VARIABLES */

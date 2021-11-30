@@ -1,0 +1,88 @@
+/* HEADER */
+
+.header {
+    width: 100%;
+    text-align: center;
+    padding: 2% 3%;
+}
+
+.navbar-toggler {
+    font-size: 4rem;
+}
+
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+}
+
+
+
+.title {
+    background-image: url("../../assets/images/logo-small.jpg");
+    /*filter: blur(8px);*/
+    /*-webkit-filter: blur(8px);*/
+    height: 90rem;
+    /*height: 100%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 20rem 0 20rem 0;
+    font-family: 'Merienda One', cursive;
+    background-color: $ivory;
+
+
+    color: $light_orange;
+    font-size: 9rem;
+    text-align: center;
+
+    & h1 {
+        transform: translateY(-11rem);
+        font-size: 6rem;
+
+        /*text-shadow: 4px 4px 0 rgba(0,0,0, .1);*/
+        /*font-family: 'Arial', sans-serif;*/
+    }
+
+    & h2 {
+        font-size: 4rem;
+        font-family: 'Arial', sans-serif;
+        /*transform: translateY(40rem);*/
+        transform: translateY(-11rem);
+    }
+}
+
+#navbarSupportedContent a {
+    color: $light_orange;
+    font-size: 3rem;
+}
+
+.nav-link {
+    color: $light_orange;
+    font-size: 3rem;
+    
+}
+
+
+#logo {
+    border-radius: 90px;
+    transform: translateX(20%);
+    /*transform: translateY(40%);*/
+
+    /*overflow: hidden;*/
+    width: 180px;
+    height: 180px;
+    /*margin: 0 auto -80px auto;*/
+    /*position: relative;*/
+    /*top: -80px;*/
+    border: 3px solid rgba(255, 255, 255, .8);
+}
+
+
+
+/* HEADER END */
