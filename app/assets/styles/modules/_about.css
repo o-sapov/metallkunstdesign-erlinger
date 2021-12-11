@@ -13,8 +13,11 @@
 
 
 &  p {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    padding: 1rem;
+       /*text-align: justify;*/
+
+    /*padding-left: 1rem;*/
+    /*padding-right: 1rem;*/
     /*line-height: 1.65;*/
     /*margin: 0 0 1.8rem 0;*/
     /*font-weight: 500;*/
