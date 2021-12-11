@@ -19,18 +19,18 @@
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet"> -->
 
 
-    <link rel="icon" href="./assets/icons/favicon.ico" />
+    <link rel="icon" href="./assets/icons/favicon.ico"/>
 
 
     <!-- CSS stylesheets -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- build:css /assets/styles/styles.css -->
-    <link href="./temp/styles/styles.css" rel="stylesheet" />
+    <link href="./temp/styles/styles.css" rel="stylesheet"/>
     <!-- endbuild -->
 
     <!-- Font Awesome -->
-    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet"/>
     <!-- build:js assets/scripts/Vendor.js -->
     <!--    <script src="/temp/scripts/Vendor.js"></script>-->
     <!-- endbuild -->
@@ -39,176 +39,208 @@
 <body>
 
 
-    <header class="header p-5 bg-dark">
-        <div class="wrapper ">
-            <nav class="navbar navbar-expand-lg navbar-dark ">
-                <div class="container-fluid">
-                    <!--                <img id="logo" src="assets/images/logo.jpg" alt="Ginkgo">-->
-                    <a class="navbar-brand" href="#"></a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+<header class="header p-5 bg-dark">
+    <div class="wrapper ">
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <div class="container-fluid">
+                <!--                <img id="logo" src="assets/images/logo.jpg" alt="Ginkgo">-->
+                <a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <!-- from bootstrap 5 use ms (s stands for start) -->
-                        <ul class="navbar-nav ms-auto">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#about">&#220;ber mich</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#footer">Kontakt</a>
-                            </li>
-                            <li class="nav-item">
-                                <!--                            TODO: Connect with function displayImpressum() (event listener?) -->
-                                <a class="nav-link" href="./html/impressum.html">Impressum</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-    </header>
-    <div class="main">
-
-        <div class="title">
-            <h1>Metallkunstdesign</h1>
-            <h2>Alfred Erlinger</h2>
-        </div>
-
-
-        <!-- Features -->
-        <section id="features">
-            <div class="wrapper">
-                <!-- bootstrap grid system requires the divs with classes to be nested in a div with class 'row' -->
-                <div class="row">
-                    <div class="col-lg-4 feature-item">
-                        <!--            <i class="fas fa-check-circle fa-3x feature-icons"></i>-->
-                        <h2>INDIVIDUELL</h2>
-                        <p>Die Entwürfe werden nach Ihren Wünschen und Ideen angefertigt.</p>
-                    </div>
-                    <div class="col-lg-4 feature-item">
-                        <h2>NACHHALTIG</h2>
-                        <p>Altmaterialien werden weiterverarbeitet oder integriert.</p>
-                        <!--            <i class="fas fa-bullseye fa-3x  feature-icons"></i>-->
-                    </div>
-                    <div class="col-lg-4 feature-item">
-                        <h2>UNIKAL</h2>
-                        <p>Die Einzelstücke werden von Hand gefertigt mit möglichst wenig maschinellem Einsatz.</p>
-                        <!--            <i class="fas fa-heart fa-3x feature-icons"></i>-->
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Images -->
-        <section id="images">
-            <!--    <div class="wrapper">-->
-            <!--        data-bs-interval="false"-->
-            <div id="carouselIndicators" class="carousel slide" data-bs-pause="hover" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
-                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3"
-                        aria-label="Slide 4"></button>
-                    <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="4"
-                        aria-label="Slide 5"></button>
-                </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="assets/images/carousel_01--small.jpg" class="d-block0 w-100" 
-                            alt="Kunstwerk">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/images/carousel_02--small.jpg" class="d-block w-100" alt="Kunstwerk">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/images/carousel_03--small.jpg" class="d-block w-100" alt="Kunstwerk">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/images/carousel_04--small.jpg" class="d-block w-100" alt="Kunstwerk">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="assets/images/carousel_05--small.jpg" class="d-block w-100" alt="Kunstwerk">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon carousel-control_background" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon carousel-control_background" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-            <!--    </div>-->
-        </section>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- from bootstrap 5 use ms (s stands for start) -->
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">&#220;ber mich</a>
+                        </li>
 
-
-        <!-- About -->
-
-        <section id="about" class="about">
-            <div class="wrapper">
-                <div class="col-lg-8 about--text">
-                    <h2>&#220;BER MICH UND MEIN HANDWERK</h2>
-                    <p>Der Grundstein für mein handwerkliches Schaffen wurde bereits in meiner Jugend gelegt. Als junger Mann bekam ich die Möglichkeit die Schmiedekunst von Grund auf zu erlernen.</p>
-                    <p>Die Ausübung dieses Handwerkes und die damit verbundenen kreativen Prozzesse bedeuten für mich künstlerische Entfaltung und persönliche Verwirklichung.</p>
-                    <p>Wichtig Inspirationsquellen sind für mich Besuche von Ausstelllung für zeitgenössische Kunst sowie von Kunsthandwerksmärkten jeglicher Art im In- und Ausland.</p>
-                </div>
-
-                <div class="col-lg-4 about--picture">
-                    <!--        <picture>-->
-                    <!--            &lt;!&ndash; The browser can alterate between different resolutions of the picture: normal and high dpi. which are set in @srcset. The parameter which comes after the path is the width of the picture (e.g.404w) @sizes says the browser which width should it use. Otherwise, it will use the full width DEVNOTE&ndash;&gt;-->
-                    <!--            <source media="(min-width: 1020px)" sizes="404px" data-srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w" srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w">-->
-
-                    <!--            &lt;!&ndash; If the screen is larger then 800 px, use a different picture source DEVNOTE&ndash;&gt;-->
-                    <!--            <source media="(min-width: 800px)" sizes="320px" data-srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-portrait-hi-dpi.jpg 764w" srcset="assets/images/our-start-portrait.jpg 382w, assets/images/our-start-portrait-hi-dpi.jpg 764w">-->
-
-
-                    <!--        </picture>-->
-                    <img alt="Alfred Erlinger" src="assets/images/profile--small.jpg">
-
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Kontakt</a>
+                        </li>
+                        <li class="nav-item">
+                            <!--                            TODO: Connect with function displayImpressum() (event listener?) -->
+                            <a class="nav-link" href="./html/impressum.html">Impressum</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </section>
+        </nav>
     </div>
-    <hr />
-    <footer class="main" id="footer">
+</header>
+<div class="main">
+
+    <div class="title">
+        <h1>Metallkunstdesign</h1>
+        <h2>Alfred Erlinger</h2>
+    </div>
+
+
+    <!-- Features -->
+    <section id="features">
         <div class="wrapper">
-            <div>
-                <h3>Kontakt</h3>
-                <p>Alfred Erlinger<br />Mairhof 16<br />AT-5133 Gilgenberg am Weilhart<br />Österreich</p>
-                <a href="mailto:fred.erlinger@gmail.com" class="email">fred.erlinger@gmail.com</a>
-                <p>Tel.: +43 7728 79116<br />Mob.: +43 664 369 1802 </p>
-            </div>
+            <!-- bootstrap grid system requires the divs with classes to be nested in a div with class 'row' -->
             <div class="row">
-
-                <div class="col-sm-6">
-                    <p><a href="./html/impressum.html" class="link-secondary">Impressum</a></p>
-<!--                    <p><a href="./html/impressum.html" class="btn btn-primary stretched-link">Impressum</a></p>-->
+                <div class="col-lg-4 feature-item">
+                    <!--            <i class="fas fa-check-circle fa-3x feature-icons"></i>-->
+                    <h2>INDIVIDUELL</h2>
+                    <p>Die Entwürfe werden nach Ihren Wünschen und Ideen angefertigt.</p>
                 </div>
-                <div class="col-sm-6">
-
-<!--                    <p class="copyright">© Copyright 2021</p>-->
+                <div class="col-lg-4 feature-item">
+                    <h2>NACHHALTIG</h2>
+                    <p>Altmaterialien werden weiterverarbeitet oder integriert.</p>
+                    <!--            <i class="fas fa-bullseye fa-3x  feature-icons"></i>-->
+                </div>
+                <div class="col-lg-4 feature-item">
+                    <h2>UNIKAL</h2>
+                    <p>Die Einzelstücke werden von Hand gefertigt mit möglichst wenig maschinellem Einsatz.</p>
+                    <!--            <i class="fas fa-heart fa-3x feature-icons"></i>-->
                 </div>
             </div>
         </div>
-    </footer>
-  
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    </section>
+
+    <!-- Images -->
+    <section id="images">
+        <!--    <div class="wrapper">-->
+        <!--        data-bs-interval="false"-->
+        <div id="carouselIndicators" class="carousel slide" data-bs-pause="hover" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="3"
+                        aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="4"
+                        aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+
+
+                    <picture>
+                        <!-- The browser can alterate between different resolutions of the picture: normal and high dpi. which are set in @srcset. The parameter which comes after the path is the width of the picture (e.g.404w) @sizes says the browser which width should it use. Otherwise, it will use the full width DEVNOTE-->
+                        <!--                                <source media="(min-width: 1020px)" sizes="404px" data-srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w" srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w">-->
+
+                        <!-- If the screen is larger then 800 px, use a different picture source DEVNOTE-->
+                        <source media="(min-width: 640px)" sizes="800px" data-srcset="assets/images/carousel_01--large.jpg 23220w"
+                                srcset="assets/images/carousel_01--large.jpg 500w">
+                        <img srcset="assets/images/carousel_01--small-i.jpg 360w" class="d-block0 w-100"
+                             alt="Kunstwerk">
+                    </picture>
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source media="(min-width: 640px)" sizes="612px" data-srcset="assets/images/carousel_02--large.jpg 23220w"
+                                srcset="assets/images/carousel_02--large.jpg 23220w">
+                        <img srcset="assets/images/carousel_02--small.jpg 360w" class="d-block w-100" alt="Kunstwerk">
+                    </picture>
+
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source media="(min-width: 810px)" sizes="612px" data-srcset="assets/images/carousel_3--large.jpg 23220w"
+                                srcset="assets/images/carousel_03--large.jpg 23220w">
+                        <img srcset="assets/images/carousel_03--small.jpg 360w" class="d-block w-100" alt="Kunstwerk">
+                    </picture>
+
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source media="(min-width: 810px)" sizes="612px" data-srcset="assets/images/carousel_04--large.jpg 23220w"
+                                srcset="assets/images/carousel_04--large.jpg 23220w">
+                        <img srcset="assets/images/carousel_04--small.jpg 360w" class="d-block w-100" alt="Kunstwerk">
+                    </picture>
+
+                </div>
+                <div class="carousel-item">
+                    <picture>
+                        <source media="(min-width: 810px)" sizes="612px" data-srcset="assets/images/carousel_05--large.jpg 23220w"
+                                srcset="assets/images/carousel_05--large.jpg 23220w">
+                        <img src="assets/images/carousel_05--small.jpg 360w" class="d-block w-100" alt="Kunstwerk">
+                    </picture>
+
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators"
+                    data-bs-slide="prev">
+                <span class="carousel-control-prev-icon carousel-control_background" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators"
+                    data-bs-slide="next">
+                <span class="carousel-control-next-icon carousel-control_background" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!--    </div>-->
+    </section>
+
+
+    <!-- About -->
+
+    <section id="about" class="about">
+        <div class="wrapper">
+            <div class="col-lg-8 about--text">
+                <h2>&#220;BER MICH UND MEIN HANDWERK</h2>
+                <p>Der Grundstein für mein handwerkliches Schaffen wurde bereits in meiner Jugend gelegt. Als junger
+                    Mann bekam ich die Möglichkeit die Schmiedekunst von Grund auf zu erlernen.</p>
+                <p>Die Ausübung dieses Handwerkes und die damit verbundenen kreativen Prozzesse bedeuten für mich
+                    künstlerische Entfaltung und persönliche Verwirklichung.</p>
+                <p>Wichtig Inspirationsquellen sind für mich Besuche von Ausstelllung für zeitgenössische Kunst sowie
+                    von Kunsthandwerksmärkten jeglicher Art im In- und Ausland.</p>
+            </div>
+
+            <div class="col-lg-4 about--picture">
+                <picture>
+                    <!-- The browser can alterate between different resolutions of the picture: normal and high dpi. which are set in @srcset. The parameter which comes after the path is the width of the picture (e.g.404w) @sizes says the browser which width should it use. Otherwise, it will use the full width DEVNOTE-->
+                    <!--                                <source media="(min-width: 1020px)" sizes="404px" data-srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w" srcset="assets/images/our-start.jpg 404w, assets/images/our-start-hi-dpi.jpg 808w">-->
+
+                    <!-- If the screen is larger then 800 px, use a different picture source DEVNOTE-->
+                    <source media="(min-width: 800px)" sizes="612px" data-srcset="assets/images/profile.jpg 612w"
+                            srcset="assets/images/profile.jpg 612w">
+                    <img alt="Alfred Erlinger" srcset="assets/images/profile--small.jpg 612w">
+                </picture>
+
+            </div>
+        </div>
+    </section>
+</div>
+<hr/>
+<footer class="main" id="footer">
+    <div class="wrapper">
+        <div>
+            <h3>Kontakt</h3>
+            <p>Alfred Erlinger<br/>Mairhof 16<br/>AT-5133 Gilgenberg am Weilhart<br/>Österreich</p>
+            <a href="mailto:fred.erlinger@gmail.com" class="email">fred.erlinger@gmail.com</a>
+            <p>Tel.: +43 7728 79116<br/>Mob.: +43 664 369 1802 </p>
+        </div>
+        <div class="row">
+
+            <div class="col-sm-6">
+                <p><a href="./html/impressum.html" class="link-secondary">Impressum</a></p>
+                <!--                    <p><a href="./html/impressum.html" class="btn btn-primary stretched-link">Impressum</a></p>-->
+            </div>
+            <div class="col-sm-6">
+
+                <!--                    <p class="copyright">© Copyright 2021</p>-->
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
-    <!-- build:js assets/scripts/App.js -->
-    <script src="/temp/scripts/App.js"></script>
-    <!-- endbuild -->
+</script>
+<!-- build:js assets/scripts/App.js -->
+<script src="/temp/scripts/App.js"></script>
+<!-- endbuild -->
 </body>
 
 

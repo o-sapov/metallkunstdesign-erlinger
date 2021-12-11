@@ -24,6 +24,11 @@
 
 .title {
     background-image: url("../../assets/images/logo-small.jpg");
+    @mixin atMedium {
+        background-image: url("../../assets/images/logo.jpg");
+    }
+
+
     /*filter: blur(8px);*/
     /*-webkit-filter: blur(8px);*/
     height: 90rem;
