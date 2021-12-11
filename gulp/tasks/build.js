@@ -85,5 +85,5 @@ gulp.task('usemin_impressum', function() {
 
 
 // gulp.task('usemin', gulp.series('usemin_index', 'usemin_index_en'));
-gulp.task('usemin', gulp.series('usemin_index'));
-gulp.task('build', gulp.series('deleteDistFolder', 'copyGeneralFiles', 'styles', 'optimizeImages', 'usemin', 'usemin_impressum'));
+gulp.task('usemin', gulp.series('usemin_index', 'usemin_impressum'));
+gulp.task('build', gulp.series('deleteDistFolder', 'copyGeneralFiles', 'styles', 'optimizeImages', 'usemin' ));
