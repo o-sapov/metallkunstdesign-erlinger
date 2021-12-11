@@ -39,7 +39,9 @@ h2 {
   line-height: 1.5;
 }
 
-
+.link-secondary {
+  font-size: 3rem;
+}
 
 /*.container-fluid {*/
 /*  padding: 3% 15%;*/
