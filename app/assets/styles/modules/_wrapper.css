@@ -8,6 +8,17 @@
     max-width: 1236px;
     margin-right: auto;
     margin-left: auto;
+
+
+}
+
+@mixin atLarge {
+    .wrapper--large_screen {
+        margin-right: auto;
+        margin-left: auto;
+        width: 50%;
+
+    }
 }
 
 /* END WRAPPER */
