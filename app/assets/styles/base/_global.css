@@ -4,7 +4,7 @@ body {
   font-family: 'Arial', sans-serif;
   color: $mainText;
   background-color: $mainBackground;
-  font-size: 3rem;
+  font-size: 1rem;
 
 /*@mixin atLarge {*/
 /*  font-size: 1.1em;*/
@@ -40,7 +40,7 @@ h2 {
 }
 
 .link-secondary {
-  font-size: 3rem;
+  font-size: 1rem;
 }
 
 /*.container-fluid {*/

@@ -1,6 +1,6 @@
 /* FEATURES */
 #features {
-  font-size: 3rem;
+  font-size: 1rem;
   padding: 5rem 0 8rem 0;
 }
 
@@ -8,11 +8,12 @@
   text-align: center;
   padding: 0 5rem 5rem 5rem;
    & h2 {
-  font-size: 5rem;
+  font-size: 2rem;
   margin: 5rem 5rem 1rem 5rem;
      }
+
   & p {
-  font-size: 4rem;
+  font-size: 1rem;
     }
 }
 

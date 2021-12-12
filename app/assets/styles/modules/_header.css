@@ -6,9 +6,9 @@
     padding: 2% 3%;
 }
 
-.navbar-toggler {
-    font-size: 4rem;
-}
+/*.navbar-toggler {*/
+/*    font-size: 4rem;*/
+/*}*/
 
 
 .nav-item {
@@ -48,14 +48,14 @@
 
     & h1 {
         transform: translateY(-11rem);
-        font-size: 6rem;
+        font-size: 3rem;
 
         /*text-shadow: 4px 4px 0 rgba(0,0,0, .1);*/
         /*font-family: 'Arial', sans-serif;*/
     }
 
     & h2 {
-        font-size: 4rem;
+        font-size: 2rem;
         font-family: 'Arial', sans-serif;
         /*transform: translateY(40rem);*/
         transform: translateY(-11rem);
@@ -64,12 +64,12 @@
 
 #navbarSupportedContent a {
     color: $light_orange;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 .nav-link {
     color: $light_orange;
-    font-size: 3rem;
+    font-size: 2rem;
     
 }
 
