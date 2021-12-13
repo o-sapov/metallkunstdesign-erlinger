@@ -1,13 +1,8 @@
 /* WRAPPER */
 
-
-
 .wrapper {
-    padding-left: 18px;
-    padding-right: 18px;
-    width: 90%;
-    margin-right: auto;
-    margin-left: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 @mixin atLarge {

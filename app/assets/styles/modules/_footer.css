@@ -1,14 +1,15 @@
 /*FOOTER*/
 
 footer {
+padding: 0.5rem;
 
-    & h3 {
-          font-size: 2rem;
-          font-weight: bold;
-      }
+    /*& h3 {*/
+    /*      font-size: 2rem;*/
+    /*      font-weight: bold;*/
+    /*  }*/
 
       p {
-          padding: 2rem 0 2rem 0;
+          /*padding: 2rem 0 2rem 0;*/
       }
 
       & .row {

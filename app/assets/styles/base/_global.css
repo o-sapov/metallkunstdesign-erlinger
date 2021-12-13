@@ -1,25 +1,25 @@
 /* GLOBAL START */
 
 body {
-  font-family: 'Arial', sans-serif;
-  color: $mainText;
-  background-color: $mainBackground;
-  font-size: 1rem;
+    font-family: 'Arial', sans-serif;
+    color: $ mainText;
+    background-color: $ mainBackground;
+    font-size: 1rem;
 
-/*@mixin atLarge {*/
-/*  font-size: 1.1em;*/
-/*}*/
+    /*@mixin atLarge {*/
+    /*  font-size: 1.1em;*/
+    /*}*/
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 * {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 
@@ -29,18 +29,23 @@ img {
 
 
 h1 {
-  /*font-size: 3rem;*/
-  line-height: 1.5;
+    /*font-size: 3rem;*/
+    line-height: 1.5;
 }
 
 h2 {
-  /* font-family: "Montserrat-Bold", sans-serif; */
-  /*font-size: 3rem;*/
-  line-height: 1.5;
+    /* font-family: "Montserrat-Bold", sans-serif; */
+    /*font-size: 3rem;*/
+    line-height: 1.5;
 }
 
+.h2_large {
+    font-size: 2rem;
+}
+
+
 .link-secondary {
-  font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 /*.container-fluid {*/

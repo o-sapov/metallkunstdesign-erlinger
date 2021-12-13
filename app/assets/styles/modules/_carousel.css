@@ -9,13 +9,13 @@
 
 .carousel-indicators [data-bs-target] {
     /* display: block; */
-    width: 6rem;
-    height: 0.8rem;
+    width: 4rem;
+    height: 0.6rem;
 }
 
 .carousel-item img {
-    width: 50%;
-    border: 15px solid $mainBackground;
+    /*width: 50%;*/
+    /*border: 1px solid $mainBackground;*/
 }
 
 
@@ -34,7 +34,7 @@
   }
 } */
 #images {
-    width: 90%;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
 
