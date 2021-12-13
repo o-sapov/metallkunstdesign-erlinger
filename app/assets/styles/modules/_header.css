@@ -16,43 +16,6 @@
     color: $light_orange !important;
 }
 
-.title {
-    background-image: url("../../assets/images/logo-small.jpg");
-
-        @mixin atMedium {
-            background-image: url("../../assets/images/logo.jpg");
-        }
-
-
-    /*filter: blur(8px);*/
-    /*-webkit-filter: blur(8px);*/
-    height: 30rem;
-    /*height: 100%;*/
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    padding: 15rem 0 10rem 0;
-    font-family: 'Merienda One', cursive;
-    background-color: $ivory;
-
-
-    color: $light_orange;
-    /*font-size: 5rem;*/
-    text-align: center;
-
-    & h1 {
-        transform: translateY(-11rem);
-        font-size: 2.3rem;
-    }
-
-    & h2 {
-        font-family: 'Arial', sans-serif;
-        /*transform: translateY(40rem);*/
-        transform: translateY(-11rem);
-    }
-}
-
 
 #logo {
     border-radius: 90px;
