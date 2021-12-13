@@ -8,7 +8,12 @@
        margin: 1rem 0;
    }
 }
-.webdev{
-    font-size: 2rem;
+.webdev {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.footer_impressum {
+    padding:0;
 }
 /*IMPRESSUM END*/
