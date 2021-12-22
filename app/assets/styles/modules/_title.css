@@ -1,32 +1,32 @@
 /* TITLE START */
 .title {
     background-image: url("../../assets/images/logo-small.jpg");
-    height: 30rem;
-& h1 {
-      transform: translateY(-11rem);
-      font-size: 2.3rem;
-  }
-& h2 {
-      font-family: 'Arial', sans-serif;
-      /*transform: translateY(40rem);*/
-      transform: translateY(-11rem);
-  }
+        height: 30rem;
+    & h1 {
+          transform: translateY(-11rem);
+          font-size: 2.3rem;
+      }
+    & h2 {
+          font-family: 'Arial', sans-serif;
+          /*transform: translateY(40rem);*/
+          transform: translateY(-11rem);
+      }
 
-@mixin atMedium {
-    background-image: url("../../assets/images/logo.jpg");
-    height: 40rem;
-& h1 {
-      /*transform: translateY(-11rem);*/
-      font-size: 3rem;
-  }
+    @mixin atMedium {
+        background-image: url("../../assets/images/logo.jpg");
+        height: 40rem;
+             & h1 {
+                  /*transform: translateY(-11rem);*/
+                  font-size: 4rem;
+              }
 
-& h2 {
-      font-size: 2.3rem;
-      font-family: 'Arial', sans-serif;
-      /*transform: translateY(40rem);*/
-      /*transform: translateY(-11rem);*/
-  }
-}
+              & h2 {
+                  font-size: 3rem;
+                  font-family: 'Arial', sans-serif;
+                  /*transform: translateY(40rem);*/
+                  /*transform: translateY(-11rem);*/
+                }
+            }
 
     /*height: 100%;*/
     background-position: center;
