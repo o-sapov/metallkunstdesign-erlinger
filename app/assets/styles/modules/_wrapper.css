@@ -3,15 +3,20 @@
 .wrapper {
     padding-left: 1rem;
     padding-right: 1rem;
+
 }
 
 @mixin atLarge {
     .wrapper--large_screen {
         margin-right: auto;
         margin-left: auto;
-        width: 50%;
-
+        width: 100%;
+        /*background-color: #F2FFE9;*/
     }
 }
+
+/*test {*/
+/*    background-color: red;*/
+/*}*/
 
 /* END WRAPPER */

@@ -2,8 +2,8 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    color: $ mainText;
-    background-color: $ mainBackground;
+    color: $mainText;
+    background-color: $mainBackground;
     font-size: 1rem;
 
     /*@mixin atLarge {*/
@@ -37,10 +37,20 @@ h2 {
     /* font-family: "Montserrat-Bold", sans-serif; */
     /*font-size: 3rem;*/
     line-height: 1.5;
+    @mixin atMedium {
+        font-weight: bold;
+    }
+
+    @mixin atLarge {
+        font-size: 2rem;
+    }
 }
 
 .h2_large {
     font-size: 2rem;
+    @mixin atLarge {
+        font-size: 2.5rem;
+    }
 }
 
 

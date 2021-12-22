@@ -1,27 +1,16 @@
 /*FOOTER*/
 
 footer {
-padding: 0.5rem;
+padding: 1rem;
+    color: $light_orange !important;
 
-    /*& h3 {*/
-    /*      font-size: 2rem;*/
-    /*      font-weight: bold;*/
-    /*  }*/
+        & a {
+              color: $light_orange !important;
+          }
+}
 
-      p {
-          /*padding: 2rem 0 2rem 0;*/
-      }
-
-      & .row {
-            font-size: 2rem;
-        }
-      .copyright {
-          text-align: right;
-      }
-
-      & .home {
-          display: none;
-      }
+.display-flex {
+    display: flex;
 }
 
 /*FOOTER END*/

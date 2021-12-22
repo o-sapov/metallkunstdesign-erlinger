@@ -4,16 +4,29 @@
   & h1 {
        font-size: 2rem;
    }
- &  p {
-       margin: 1rem 0;
-   }
+ /*&  p {*/
+ /*      margin: 1rem 0;*/
+ /*  }*/
+
+@mixin atMedium {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
 }
+    @mixin atLarge {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+}
+
 .webdev {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
 
-.footer_impressum {
-    padding:0;
-}
+/*.footer_impressum {*/
+/*    padding:0;*/
+/*}*/
 /*IMPRESSUM END*/

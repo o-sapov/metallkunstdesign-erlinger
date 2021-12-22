@@ -1,0 +1,68 @@
+/* TITLE START */
+.title {
+    background-image: url("../../assets/images/logo-small.jpg");
+        height: 30rem;
+    & h1 {
+          transform: translateY(-11rem);
+          font-size: 2.3rem;
+      }
+    & h2 {
+          font-family: 'Arial', sans-serif;
+          /*transform: translateY(40rem);*/
+          transform: translateY(-11rem);
+      }
+
+    @mixin atMedium {
+        background-image: url("../../assets/images/logo.jpg");
+        height: 40rem;
+             & h1 {
+                  /*transform: translateY(-11rem);*/
+                  font-size: 4rem;
+              }
+
+              & h2 {
+                  font-size: 3rem;
+                  font-family: 'Arial', sans-serif;
+                  /*transform: translateY(40rem);*/
+                  /*transform: translateY(-11rem);*/
+                }
+            }
+
+    @mixin atLarge {
+        /*height: 35rem;*/
+        /*width: 70%;*/
+        /*max-width: 1320px;*/
+        margin-right: auto;
+        margin-left: auto;
+        /*background-color: green;*/
+
+    & h1 {
+          /*transform: translateY(-11rem);*/
+          font-size: 5rem;
+      }
+
+    & h2 {
+          font-size: 4rem;
+          font-family: 'Arial', sans-serif;
+          /*transform: translateY(40rem);*/
+          /*transform: translateY(-11rem);*/
+      }
+    }
+
+    /*height: 100%;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 15rem 0 10rem 0;
+    font-family: 'Merienda One', cursive;
+    background-color: $ivory;
+
+
+    color: $light_orange;
+    /*font-size: 5rem;*/
+    text-align: center;
+
+
+}
+/* TITLE END */
