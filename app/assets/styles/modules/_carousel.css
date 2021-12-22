@@ -18,6 +18,19 @@
     /*border: 1px solid $mainBackground;*/
 }
 
+/*test {*/
+/*    position: relative;*/
+/*}*/
+
+#carouselIndicators {
+    @mixin atLarge {
+        padding-top: 2rem;
+    }
+
+    /*position: absolute;*/
+    /*top: 50%;*/
+    /*transform: translateY(-50%)*/
+}
 
 /* @mixin atSmall {
   .wrap_img {
@@ -34,14 +47,25 @@
   }
 } */
 #images {
+
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+
 
     @mixin atMedium {
         width: 60%;
         margin-left: auto;
         margin-right: auto;
+    }
+
+
+    @mixin atLarge {
+        /*transform: translateY(22%);*/
+        width: 55%;
+        /*padding: 5rem 0 2rem 0;*/
+
+
     }
 }
 

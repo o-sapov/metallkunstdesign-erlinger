@@ -10,12 +10,7 @@ function stopSliding() {
         // $('#images').attr("class", "container-sm");
     };
 
-    var tablet = window.matchMedia("(min-width:768px)").matches;
 
-    if (tablet) {
-        console.log('tablet');
-        // $('#images').attr("class", "container-md");
-    }
 }
 
 $(document).ready(stopSliding());
@@ -24,3 +19,4 @@ document.body.style.webkitTransform =  'scale(1)';
 document.body.style.msTransform =   'scale(100)';
 document.body.style.transform = 'scale(1)';
 document.body.style.zoom = screen.logicalXDPI / screen.deviceXDPI;
+

@@ -11,11 +11,30 @@
 }
 
 .nav-link {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    @mixin atMedium {
+        font-size: 1.5rem;
+    }
+    @mixin atLarge {
+        font-size: 2rem;
+    }
     font-family: "Montserrat-Light";
     color: $light_orange !important;
 }
 
+<<<<<<< HEAD
+=======
+.navbar-toggler {
+    font-size: 1.5rem;
+}
+
+
+/*.nav-item {*/
+/*  padding: 0 15px;*/
+/*}*/
+
+
+>>>>>>> notebook
 
 #logo {
     border-radius: 90px;

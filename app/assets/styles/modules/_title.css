@@ -28,6 +28,30 @@
                 }
             }
 
+<<<<<<< HEAD
+=======
+    @mixin atLarge {
+        /*height: 35rem;*/
+        /*width: 70%;*/
+        /*max-width: 1320px;*/
+        margin-right: auto;
+        margin-left: auto;
+        /*background-color: green;*/
+
+    & h1 {
+          /*transform: translateY(-11rem);*/
+          font-size: 5rem;
+      }
+
+    & h2 {
+          font-size: 4rem;
+          font-family: 'Arial', sans-serif;
+          /*transform: translateY(40rem);*/
+          /*transform: translateY(-11rem);*/
+      }
+    }
+
+>>>>>>> notebook
     /*height: 100%;*/
     background-position: center;
     background-repeat: no-repeat;

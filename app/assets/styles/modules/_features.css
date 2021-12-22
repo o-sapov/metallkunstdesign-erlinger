@@ -1,4 +1,10 @@
 /* FEATURES */
+.features {
+    @mixin atLarge {
+        padding-top: 2rem;
+    }
+}
+
 #features {
     padding: 5rem 0 2rem 0;
 }
@@ -7,16 +13,17 @@
     text-align: center;
     padding-bottom: 2rem;
 
-/*padding: 0 5rem 5rem 5rem;*/
+    @mixin atLarge {
+        padding: 1rem;
+    }
 
-/* & h2 {*/
-/*!*font-size: 2rem;*!*/
-/*margin: 5rem 5rem 1rem 5rem;*/
-/*   }*/
 
-&  p {
-    font-size: 1.5rem;
-}
+        &  p {
+            font-size: 1.5rem;
+            @mixin atLarge {
+                font-size: 1.7rem;
+            }
+        }
 
 }
 
