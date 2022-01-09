@@ -14,6 +14,7 @@
 
     @mixin atMedium {
         background-image: url("../../assets/images/logo.jpg");
+
         height: 40rem;
              & h1 {
                   /*transform: translateY(-11rem);*/
@@ -31,12 +32,13 @@
 <<<<<<< HEAD
 =======
     @mixin atLarge {
-        /*height: 35rem;*/
+        /*background-size:cover;*/
+        /*height: 55rem;*/
         /*width: 70%;*/
-        /*max-width: 1320px;*/
+        /*max-width:  1320px;*/
         margin-right: auto;
         margin-left: auto;
-        /*background-color: green;*/
+
 
     & h1 {
           /*transform: translateY(-11rem);*/
