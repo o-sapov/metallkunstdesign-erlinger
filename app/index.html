@@ -58,7 +58,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
                             <a onclick="function resetHref() {
-    location.hash = '';
+    location.hash = ''; console.log('reset href');
 
 }" class="nav-link nav-link--custom" href="#images">Werkgalerie</a>
                         </li>
@@ -283,7 +283,7 @@
                     von Kunsthandwerksmärkten jeglicher Art im In- und Ausland.</p>
             </div>
 
-            <div class="col-lg-4 about--picture align-items-lg-center display-flex">
+            <div class="col-lg-4 about--picture ">
                 <picture>
                     <source media="(min-width: 611px)" sizes="612px" data-srcset="assets/images/profile.jpg 612w"
                             srcset="assets/images/profile.jpg 612w">
