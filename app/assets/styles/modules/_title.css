@@ -29,8 +29,6 @@
                 }
             }
 
-<<<<<<< HEAD
-=======
     @mixin atLarge {
         /*background-size:cover;*/
         /*height: 55rem;*/
@@ -53,7 +51,6 @@
       }
     }
 
->>>>>>> notebook
     /*height: 100%;*/
     background-position: center;
     background-repeat: no-repeat;
